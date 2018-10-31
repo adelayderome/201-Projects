@@ -1,0 +1,1 @@
+Basic calendar application functionality
