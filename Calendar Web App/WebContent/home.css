@@ -1,0 +1,206 @@
+/* Adelayde Rome (7675884868) */
+
+@charset "UTF-8";
+#top{
+	height: 100px;
+	background-color: #000000;
+	top: 0;
+	font-family: American Typewriter;
+	font-size: 200%;
+	position: fixed;
+	width: 100%;
+}
+
+#topright a {
+	text-decoration: none;
+	color: #ffffff;
+	margin-right: 35px;
+	padding: 35px;
+	float: right;
+}
+#search {
+	position: fixed;
+	left: 460px;
+}
+#search input[type=text] {
+	background-image: url('search-icon.png');
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 8%;
+	padding: 5px;
+	margin-top: 40px;
+	padding-left: 12px;
+	padding-right: 100px;
+	font-family: American Typewriter;
+	font-size: 65%;
+	
+}
+#searchPage {
+	position: fixed;
+	display: none;
+	width: 100%;
+	height: 100%; 
+	top: 100px;
+	left: 0;
+	right: 0;
+	z-index: 5;
+	background-color: #ffffff;
+	overflow-y: scroll;
+}
+#searchUsers {
+	margin-bottom: 200px;
+}
+
+#searchUsers .column img{
+	border-radius: 50%;
+	height: 230px;
+	width: 230px;
+	align: center;
+	vertical-align: top;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+#searchUsers .column p{
+	text-align: center;
+	vertical-align: bottom;
+	horizontal-align: center;
+	
+}
+a {
+	color: #000000;
+	text-decoration: none;
+} 
+#topleft a{
+	float: left;
+	text-decoration: none;
+	color: #ffffff;
+	padding: 35px;
+	left: 35px;
+}
+
+body{
+	margin: 0px;
+}
+
+#main{
+	margin-top: 90px;
+	padding: 50px;
+	font-family: American Typewriter;
+	
+	padding-bottom: 100px;
+}
+h2 {
+	font-weight: normal;
+	font-size: 200%;
+}
+#main p {
+	z-index: -100;
+	font-family: American Typewriter;
+	font-size: 230%;
+	position: relative;
+	top: -20px;
+	margin: 0;
+	margin-top: 20px;
+}
+
+#outline{
+	border: 2px solid black;
+	padding: 10px;
+}
+
+#block{
+	padding: 20px;
+}
+
+#profPic{
+	border-radius: 50%;
+
+	height: 200px;
+	width: 200px;
+	vertical-align: middle;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#friendPic{
+	border-radius: 50%;
+	height: 120px;
+	width: 120px;
+	align: left;
+}
+.row {
+  	display: flex;
+  
+}
+
+.column {
+  	flex: 33.33%;
+  	padding: 5px;
+  	text-align: center;
+  
+}
+
+#name{
+	position: relative;
+	text-align: center;
+	
+	font-family: American Typewriter;
+	font-size: 230%;
+
+}
+
+form {
+	border: 2px solid black;
+	padding: 25px;
+	background-color: #898989;
+}
+
+#block input {
+	background-color: #898989;
+	color: #ffffff;
+	border-color: #000000;
+	font-family: American Typewriter;
+	font-size: 150%;
+	margin: 5px;
+	padding: 3px;
+	margin-right: 35px;
+}
+input[name=title]{
+	width: 665px;
+}
+
+#block input[type=submit]{
+	background-color: #ffffff;
+	color: #000000;
+	width: 170px;
+	padding: 10px;
+	border-radius: 5px;
+	float: right;
+	margin-right: 30px;
+	position: relative;
+	bottom: 110px;
+}
+
+input[type=time]{
+	margin-right: 137px;
+}
+
+#date input{
+	padding-right: 10px;
+	color: #ffffff;
+}
+
+#block ::placeholder{
+	color: #ffffff;
+}
+
+#bottom{
+	position: fixed;
+	bottom: 0;
+	height: 80px;
+	background-color: #000000;
+	margin-bottom: 0;
+	width: 100%;
+}
